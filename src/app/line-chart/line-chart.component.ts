@@ -89,7 +89,7 @@ export class LineChartComponent implements OnInit {
           console.log('getStocks success');
           var temp = res.json();
 
-          //let indexValues = [];
+       
           this.datasets_lines = [];
 
           temp.map(ele => {
